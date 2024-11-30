@@ -26,8 +26,8 @@ class BarBawah extends StatefulWidget {
 class _NavbarwidgetState extends State<BarBawah> {
   int _currentIndex = 0;
   final List<Widget> _children = [
-    HomePage(),
-    Cardpage(),
+    Homepage(),
+    CardPage(),
     Addpage(),
 
   ];
